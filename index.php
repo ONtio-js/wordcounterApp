@@ -10,19 +10,33 @@
           href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><span class="logo">X<span id="ox">O</span>X<span id="xo">O</span></span></li>
-                <li>
-                <input type="text" name="search" id="searchbar">
-                <input type="submit" value="search">
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main></main>
-    <footer></footer>
+    
+    <form id="form" method="post">
+        <h3>authomatic word counter</h3>
+        <textarea name="textarea" id="text" ></textarea>
+        <div id="display">
+        <div >
+            <h4>words</h4>
+            <div>
+                
+            </div>
+        </div>
+           <div>
+            <h4>words <span>with space</span></h4>
+            <div>
+                
+            </div>
+        </div>
+           <div>
+            <h4>characters</h4>
+            <div>
+                
+            </div>
+        </div>
+        </div>
+        <input type="submit" name="submit" value="count">
+
+    </form>
 
 </body>
 </html>

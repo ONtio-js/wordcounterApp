@@ -15,24 +15,57 @@ width: 100vw;
 height: 100vh;
 color: rgb(36, 34, 34);
 font-family: 'Playfair Display', serif;
+position: relative;
 }
-header nav ul li .logo {
-    color: red;
-    font-family: 'Dancing Script', cursive;
+form{
+    max-width: 500px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   padding: 40px;
+   border: thin solid #ccc;
+   border-radius: 10px;
 }
-header nav ul li.logo #ox{
-    color: #ffc145;
-    font-weight: 700;
-    font-size: 1.2rem;
-    font-family: 'Tangerine', serif;
-    display: inline-block;
-    margin-top: 5px;
+form h2{
+    margin-top: -20px;
 }
-header nav div  a #logo #xo{
-    color: #ff45d7;
-    font-weight: 700;
-    font-size: 1.2rem;
-    font-family: 'Tangerine', serif;
-    display: inline-block;
-    margin-top: -3px;
+form textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: thin solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+form #display{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 0.3fr;
+   border-radius: 10px;
+    border: thin solid #ccc;
+}
+form #display div{
+  
+/*    height: 40px;*/
+    text-align: center;
+    font-size: 0.8rem;
+}
+form #display span{
+    display: none;
+}
+form #display div div{
+    height: 40px;
+    width: 100%;
+    border: thin solid #ccc;
+}
+input{
+    margin-top: 20px;
+    width: 100%;
+    padding: 6px;
+    border: thin solid #ccc;
+     border-radius: 5px;
 }
