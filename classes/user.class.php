@@ -78,6 +78,7 @@ class Login extends Database
            $customer_id = $stmt->fetch(PDO::FETCH_ASSOC);
            if (password_verify($password,$customer_id['pasword']))
            {
+            session_start();
             $_SESSION['customer'] = $customer_id['customer_id'];
             $_SESSION['account_no'] = $customer_id['account_no'];
             $_SESSION['email'] = $customer_id['email'];

@@ -17,6 +17,7 @@ background-color: #ebebeb;
 width: 100vw;
 height: 100vh;
 color: rgb(36, 34, 34);
+position: relative;
 font-family: 'Playfair Display', serif;
 }
 #sign-up-header{
@@ -51,13 +52,15 @@ li a .logo #xo{
     margin-top: -3px;
 }
 li a .button{
-    padding: 3px;
-    background-color: transparent;
-    border: thin solid #5b5f97;
-    font-size: 1.2rem;
-    color: #5b5f97;
-    border-radius: 5px;
+    padding: 4px;
+    background-color: none;
+    border-radius: 10px;
+    border-left:2px solid #5b5f97;
+    border-right: 2px solid #5b5f97;
+    border-top:thin solid #ffc145;
+    border-bottom:thin solid #ff45d7;
     transition: 0.2s all ease-in;
+    outline: none;
 }
 li a .button:hover{
     color: blue;
@@ -117,6 +120,9 @@ color: #5b5f97;
 font-size: 1.05rem;
 }
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     height: 45px;
     text-align: center;
     background-color: #aaaaaa59;
