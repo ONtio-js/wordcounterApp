@@ -24,13 +24,10 @@
             <div>
             <h2>login</h2>
             <div class="input">
-                <input type="email" name="email" id="email" placeholder="Enter Email">
+                <input type="text" name="customer_id" id="email" placeholder="Customer Id">
             </div>
             <div class="input">
                 <input type="password" name="pwd" id="pwd" placeholder="Password">
-            </div>
-            <div class="input">
-                <input type="password" name="rpwd" id="rpwd" placeholder="Confirm Password">
             </div>
             <input type="submit" value="LOGIN" name="button">
             </div>
