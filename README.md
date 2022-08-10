@@ -1,7 +1,9 @@
 # WORDCOUNTER WEBAPP WITH AUTHENTICATION SYSTEM
-#USING PHP, MYSQL, CSS
+# USING PHP, MYSQL, CSS
 
 
 Index Page                 | 
 :-------------------------:|
-![Screenshot](images/img.png)
+![Screenshot](img/img.png)
+:---------------------------------------------------------------------------:|
+<p> live version <a href ="xoxoapp.atwebpages.com/index.php">xoxoApp</a></p>
